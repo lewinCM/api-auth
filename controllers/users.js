@@ -110,9 +110,6 @@ const deleteUser = async (req, res = response) => {
 };
 
 
-
-
-
 const loginCtrl = async (req, res = response) => {
   const { email, password } = req.body
   try {
