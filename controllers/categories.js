@@ -1,21 +1,21 @@
-const createBlog = (req, res) => {
-  res.json({ ok: true, msg: 'createBlog correctamente' })
+const createcategory = (req, res) => {
+  res.json({ ok: true, msg: 'createcategory correctamente' })
 }
 
-const allBlog = (req, res) => {
-  res.json({ ok: true, msg: 'allBlog correctamente' })
+const allcategory = (req, res) => {
+  res.json({ ok: true, msg: 'allcategory correctamente' })
 }
-const BlogById = (req, res) => {
-  res.json({ ok: true, msg: 'BlogById correctamente' })
+const categoryById = (req, res) => {
+  res.json({ ok: true, msg: 'categoryById correctamente' })
 }
-const updateBlog = (req, res) => {
-  res.json({ ok: true, msg: 'updateBlog correctamente' })
-}
-
-const deleteBlog = (req, res) => {
-  res.json({ ok: true, msg: 'deleteBlog correctamente' })
+const updatecategory = (req, res) => {
+  res.json({ ok: true, msg: 'updatecategory correctamente' })
 }
 
+const deletecategory = (req, res) => {
+  res.json({ ok: true, msg: 'deletecategory correctamente' })
+}
 
 
-module.exports = { createBlog, allBlog, deleteBlog, updateBlog, BlogById }
+
+module.exports = { createcategory, allcategory, deletecategory, updatecategory, categoryById }
